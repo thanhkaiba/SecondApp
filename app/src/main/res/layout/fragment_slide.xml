@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/content"
+    android:orientation="vertical"
+    android:background="#4E58AD"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_weight="1"
+       android:layout_marginBottom="20dp"
+       android:gravity="bottom"
+       android:layout_width="match_parent"
+       android:layout_height="0dp">
+       <ImageView
+           android:layout_gravity="center_horizontal"
+           android:src="@drawable/img_note"
+           android:layout_width="100dp"
+           android:layout_height="100dp"
+           />
+   </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <com.example.tienthanh.mysecond.custom.MyTextView
+            android:layout_width="match_parent"
+            android:text="@string/keep_track"
+            android:textSize="26sp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:layout_height="wrap_content" />
+        <com.example.tienthanh.mysecond.custom.MyTextView
+            android:layout_width="match_parent"
+            android:textSize="14sp"
+            android:textColor="#C8CEFE"
+            android:gravity="center"
+            android:text="@string/description"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:layout_marginBottom="60dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/circle1"
+                android:layout_width="wrap_content"
+                android:src="@drawable/circle"
+                android:layout_margin="5dp"
+                app:civ_circle_background_color="#414B93"
+                android:layout_height="wrap_content" />
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/circle2"
+                android:layout_width="wrap_content"
+                android:src="@drawable/circle"
+                android:layout_margin="5dp"
+                app:civ_circle_background_color="#414B93"
+                android:layout_height="wrap_content" />
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/circle3"
+                android:layout_width="wrap_content"
+                android:src="@drawable/circle"
+                android:layout_margin="5dp"
+                app:civ_circle_background_color="#414B93"
+                android:layout_height="wrap_content" />
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/circle4"
+                android:layout_width="wrap_content"
+                android:src="@drawable/circle"
+                android:layout_margin="5dp"
+                app:civ_circle_background_color="#414B93"
+                android:layout_height="wrap_content" />
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/circle5"
+                android:layout_width="wrap_content"
+                android:src="@drawable/circle"
+                android:layout_margin="5dp"
+                app:civ_circle_background_color="#414B93"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    <com.example.tienthanh.mysecond.custom.MyButton
+        android:text="skip tutorial"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</LinearLayout>

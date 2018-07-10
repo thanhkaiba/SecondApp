@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context=".Activity.MainActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <com.example.tienthanh.mysecond.custom.MyTextView
+            android:gravity="center"
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:textSize="25sp"
+            android:text="Welcome, "
+            android:layout_height="wrap_content" />
+
+        <com.example.tienthanh.mysecond.custom.MyTextView
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:textSize="25sp"
+            android:textColor="#66E3FF"
+            android:text="Jenifer"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_gravity="center"
+        android:maxWidth="100dp"
+        android:layout_weight="1"
+        android:maxHeight="100dp"
+        android:src="@drawable/avatar"
+        android:layout_height="0dp"
+        android:layout_width="wrap_content" />
+
+
+        <com.example.tienthanh.mysecond.custom.MyEditText
+            android:hint="Email"
+            android:paddingLeft="10dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:textColor="#fff"
+            android:drawableStart="@drawable/ic_person"
+            android:layout_width="match_parent"
+            android:layout_weight="0.5"
+            android:layout_height="0dp" />
+
+
+        <com.example.tienthanh.mysecond.custom.MyEditText
+            android:hint="Password"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:paddingStart="10dp"
+            android:drawableStart="@drawable/ic_lock"
+            android:inputType="textPassword"
+            android:textColor="#fff"
+            android:layout_width="match_parent"
+            android:layout_weight="0.5"
+            android:layout_height="0dp" />
+
+
+    <com.example.tienthanh.mysecond.custom.MyButton
+        android:layout_weight="0.5"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:background="#66E3FF"
+        android:textColor="#fff"
+        android:onClick="onClickLogin"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:text="LOGIN"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <com.example.tienthanh.mysecond.custom.MyTextView
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:textSize="12sp"
+        android:text="CREATE NEW ACCOUNT"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp" />
+
+</LinearLayout>

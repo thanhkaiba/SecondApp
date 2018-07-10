@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MySecond</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_activity">Activity</string>
+    <string name="nav_tasks">Tasks</string>
+    <string name="nav_setting">Account Setting</string>
+    <string name="nav_logout">Logout</string>
+    <string name="nav_open_drawer">Open navigation drawer</string>
+    <string name="nav_close_drawer">Close navigation drawer</string>
+    <string name="keep_track">Keep track of your task</string>
+    <string name="description">Never miss an appointment, never forget about your daily team meeting and remember when your favorite team is playing</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Jennifer Wilson</string>
+
+</resources>
